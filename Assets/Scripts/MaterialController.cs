@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MaterialController : MonoBehaviour
 {
-    public float Bloat = 0;
+    [Range(0.1f,0.5f)]public float Bloat = 0;
     MeshRenderer meshRenderer;
     // Start is called before the first frame update
     void Start()
